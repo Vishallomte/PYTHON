@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Arithmatic operator 
-Created on Wed Jul 23 18:49:58 2025
-@author: Admin
-"""
+
+# Arithmatic operator 
+# Created on Wed Jul 23 18:49:58 2025
+# @author: Admin
+
 # Operator | Name           | Example
 # +        | Addition       | 2 + 3 → 5   
 # -        | Subtraction    | 5 - 2 → 3
@@ -13,6 +13,19 @@ Created on Wed Jul 23 18:49:58 2025
 # %        | Modulus        | 10 % 3 → 1 --> gives the remainder
 # **       | Exponentiation | 2 ** 3 → 8 --> 2 to the power of 3
 
+# Ask the user to enter a number and print whether it is even or odd.
+
+a = int(input("enter a number"))
+if a % 2 == 0:
+    print(f"{a} is even")
+else:
+    print(f"{a} is odd")
+
+
+
+
+
+# code to automate operator selection
 
 a = int(input("enter first number"))
 b = int(input("enter second number"))
@@ -40,24 +53,11 @@ else:
     print("invalid operator")  
 
 
-# Ask the user to enter a number and print whether it is even or odd.
 
-a = int(input("enter a number"))
-if a % 2 == 0:
-    print(f"{a} is even")
-else:
-    print(f"{a} is odd")
-    
-    
-    
-    
-    
-    
-   """
-   comparision  operator 
-   Created on Wed Jul 23 18:49:58 2025
-   @author: Admin
-   """ 
+
+#    comparision  operator 
+#    Created on Wed Jul 23 18:49:58 2025
+#    @author: Admim
     
     
     
@@ -84,6 +84,8 @@ elif a>=50:
 else:
     print("grade F")
 
+
+#check if its a leap year or not
 a = input("enter a year to check if its a leap year or not: ")
 
 if a%4 == 0 and a%100 != 0:
@@ -97,13 +99,13 @@ else:
     
      
     
-   """
-   logical   operator 
-   Created on Wed Jul 23 18:49:58 2025
-   @author: Admin
-   """ 
+#    """
+#    logical   operator 
+#    Created on Wed Jul 23 18:49:58 2025
+#    @author: Admin
+#    """ 
    
-   # Operator | Meaning                 | Example
+# Operator | Meaning                 | Example
 # and      | True if both are true   | x > 3 and x < 10
 # or       | True if at least one is | x > 3 or x < 2
 # not      | Reverses the condition  | not(x > 5)
